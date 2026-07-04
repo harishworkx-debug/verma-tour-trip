@@ -67,9 +67,12 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border">
-        <div className="mx-auto max-w-7xl px-6 py-5 text-xs text-muted-foreground flex flex-col md:flex-row justify-between gap-2">
+        <div className="mx-auto max-w-7xl px-6 py-5 text-xs text-muted-foreground flex flex-col md:flex-row justify-between items-center gap-2 text-center">
           <span>© {year} Verma Tour & Travels. All rights reserved.</span>
           <span>Crafted with luxury in mind.</span>
+          <span>
+            Powered by <a href="https://www.techhim.online/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:underline">TechHim Solutions</a>
+          </span>
         </div>
       </div>
     </footer>
