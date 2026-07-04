@@ -82,19 +82,24 @@ function ContactPage() {
                 <MapPin className="h-5 w-5 text-accent mt-1" />
                 <div>
                   <div className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Location</div>
-                  <div className="mt-1">Himachal Pradesh, India</div>
+                  <div className="mt-1">3XJ8+CR4, SH 16, Kunihar, Himachal Pradesh 173207</div>
+                  <a href="https://maps.app.goo.gl/j73prDW1tvADtEU97" target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex text-sm text-accent hover:underline">
+                    View business profile
+                  </a>
                 </div>
               </div>
               <a href="https://wa.me/919816492182" className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-white font-medium" style={{ background: "linear-gradient(135deg, #25D366, #128C7E)" }}>
                 <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
               </a>
             </div>
-            <a href="https://maps.app.goo.gl/KWc73Cf2veWwVNuWA" target="_blank" rel="noopener noreferrer" className="block rounded-3xl glass-strong p-2 overflow-hidden group relative">
+            <a href="https://maps.app.goo.gl/j73prDW1tvADtEU97" target="_blank" rel="noopener noreferrer" className="block rounded-3xl glass-strong p-2 overflow-hidden group relative">
               <iframe
-                title="Map"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d432418.9!2d77.0!3d31.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1700000000000"
+                title="Verma Tour & Travels Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3417.0332424512376!2d76.96707049999999!3d31.081002299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390564f5b31dc2f5%3A0x29775095d0bea7db!2sVERMA%20TOUR%20%26%20TRAVELS!5e0!3m2!1sen!2sin!4v1783143053532!5m2!1sen!2sin"
                 className="w-full h-64 rounded-2xl border-0 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition duration-500 pointer-events-none"
                 loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/20 transition rounded-3xl">
                 <div className="flex items-center gap-2 px-4 py-2 rounded-full glass text-sm font-medium">
